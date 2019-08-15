@@ -1,0 +1,12 @@
+#spinner:not(.stopped) {
+  animation: fast-spin infinite 0.3s linear, transform 0.5s ease-out;
+  transform-origin: 150px 150px;
+}
+
+@keyframes fast-spin {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}

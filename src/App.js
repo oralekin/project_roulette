@@ -1,23 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Roulette from "./components/roulette/Roulette"
+
+
+//         <img src={logo} className="App-logo" alt="logo" />
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Roulette></Roulette>
       </header>
     </div>
   );
